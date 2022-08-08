@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.993);
+   /* background-image: url(img/estrela.png); */
+    background-repeat: no-repeat;
+    background-size: 1000px 1050px;
+    background-position: center top;
+    background-attachment: fixed; 
+    
+}
+
+header {
+    width: 1900px;
+    height: 125px;
+    border: 1px solid rgb(1, 3, 90);
+    margin: 0 auto;
+    background-image: url(img/estrelado.jpg);
+
+
+
+}
+
+.icone {
+    margin-top: 10px;
+    margin-right: 8px;
+    
+}
+.icone1 {
+    margin-left: 6px;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+.icone2 {
+    margin-top: 1px;
+    margin-right: 12px;
+}
+
+#rede {
+    background-color: #FFF;
+    background-image: url(img/estrelado.jpg);
+    float: left;
+    width:300px;
+    height: 75px;
+    border: none;
+    margin-left: 300px;
+    margin-top: 33px;
+
+}
+
+
+#marca {
+    background-color: #FFF;
+    background-image: url(img/estrelado.jpg);
+    width: 400px;
+    height: 40px;
+    border: none;
+    margin-left: 1200px;
+    margin-top: 39px;
+    
+}
+
+#primeira {
+    background-color: rgb(19, 45, 161);
+    width: 1000px;
+    height: 60px;
+    border: none;
+    float: left;
+}
+
+#primeira > ul > li {
+    color: #FFF;
+    list-style-type: none;
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.mascote {
+    margin-left: 49px;
+}
+
+#primeira > ul > li > a {
+    color: rgb(244, 244, 248);
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   /* line-height: 60px; */
+    transition: all, 0.5s;;
+}
+
+#primeira > ul > li > a:hover {
+    color: rgb(133, 133, 133);
+    border-bottom: 4px solid rgb(139, 139, 139);
+    transition: all, 0.5s;
+}
+
+#primeira .ativo {
+    color: rgb(183, 232, 255);
+    border-bottom: 2px solid rgb(183, 232, 255);
+
+}
+
+#segunda {
+    width: 901px;
+    height: 60px;
+    border: none;
+    margin-left: 1000px;
+    background-color: rgb(19, 45, 161);
+}
+
+
+#segunda > ul > li {
+    color: #FFF;
+    list-style-type: none;
+    float: left;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+
+
+main {
+    margin-top: 100px;
+    width: 1500px;
+    height: 1000px;
+    border: none;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+#cadastro {
+    border: none;
+    width: 1500px;
+    height: 1000px;
+}
+
+#cadastro h2 {
+    text-align: center;
+    margin-top: 75px;
+    color: rgb(19, 45, 161);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.ip {
+    border: 1px solid rgb(107, 107, 107);
+    width: 340px;
+    height: 35px;
+    margin-left: 580px;
+    margin-top: 60px;
+    border-radius: 5px;
+    
+}
+
+.ip1 {
+    border: 1px solid rgb(107, 107, 107);
+    width: 340px;
+    height: 35px;
+    margin-left: 580px;
+    margin-top: 30px;
+    border-radius: 5px;
+    
+}
+
+.estrangeiro {
+    border: 1px solid rgb(107, 107, 107);
+    width: 100px;
+    height: 20px;
+    margin-left: 645px;
+    margin-top: 30px;
+}
+
+.ccd {
+    border: 1px solid rgb(107, 107, 107);
+    width: 100px;
+    height: 20px;
+    margin-left: 540px;
+    margin-top: 30px;
+    
+}
+
+label {
+    color: #000;
+    font-size: 14pt;
+    margin-left: -38px;
+    
+}
+
+.concordo {
+    font-size: 12pt;
+    text-align: center;
+}
+
+select {
+    width: 340px;
+    height: 35px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    margin-left: 580px;
+    margin-top: 50px;
+}
+
+#acessar {
+    margin-left: 10px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.bt {
+    width: 340px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 580px;
+    background-color: rgb(4, 33, 161);
+    color: #FFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    font-weight: bolder;
+    cursor: pointer;
+    box-shadow: 3px 3px 4px rgba(10, 10, 10, 0.7);
+}
+
+.bt:hover {
+    background-color: rgb(4, 18, 218);;
+    color: #FFF;
+}
+
+#logo {
+    float: left;
+    width: 360px;
+    height: 1000px;
+    border: none;
+    
+}
+
+.ft1 {
+    background-image: url(img/hoje.png);
+    background-size: 360px 480px;
+    width: 360px;
+    height: 480px;
+    border: none;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.ft2 {
+    background-image: url(img/socio.png);
+    background-size: 360px 480px;
+    width: 360px;
+    height: 480px;
+    border: none;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#butao {
+    margin-top: 410px;
+    margin-left: 130px;
+    text-shadow: 1px 1px 1px rgba(241, 241, 243, 0.822);
+    box-shadow: 3px 3px 4px rgba(10, 10, 10, 0.7);
+    background-color: rgb(245, 188, 43);
+    color: rgb(10, 10, 161);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+
+#butao:hover {
+    background-color: rgb(4, 17, 194);;
+    color: #FFF;
+}
+
+#conteudo {
+    float: right;
+    width: 735px;
+    height: 1000px;
+    border: none;
+    margin-right: 382px;
+}
+
+#one {
+    background-image: url(img/minerao.webp);
+    background-size: 350px 310px;
+    float: left;
+    width: 350px;
+    height: 310px;
+    border: none;
+}
+#one h2 {
+   color: #FFF;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 145px;
+   padding: 14px;
+}
+
+#one p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 0px solid #FFF;
+    background-color: #FFF;
+    border-radius: 10px;
+    text-align: center;
+    color:rgb(1, 1, 126);
+}
+
+#two {
+    background-image: url(img/loja.png);
+    background-size: 350px 310px;
+    float: right;
+    width: 350px;
+    height: 310px;
+    border: none;
+}
+
+#two h2 {
+    margin-top: 20px;
+    color: #FFF;
+    font-family:OCR A Std, monospace;
+    text-align: center;
+    font-size: 23pt;
+    transform: rotate(-20deg);
+    text-shadow: 1px 1px 1px rgba(228, 220, 220, 0.7);
+}
+
+#two p {
+    font-family: Blippo, fantasy;
+    margin-top: 60px;
+    text-align: center;
+    color: #FFF;
+    text-shadow: 4px 3px 2px rgba(6, 9, 175, 0.7);
+    font-size: 16pt;
+}
+
+#three {
+    background-image: url(img/ingresso.png);
+    background-size: 855px 310px;
+    width: 735px;
+    height: 310px;
+    border: none;
+    margin-top: 340px;
+}
+
+#butao2 {
+    margin-top: 250px;
+    margin-left: 520px;
+    box-shadow: 3px 3px 4px rgba(10, 10, 10, 0.7);
+    background-color: rgb(20, 6, 218);
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500px;
+    cursor: pointer;
+    width: 215px;
+    height: 50px;
+}
+
+#butao2:hover {
+    background-color: rgb(31, 45, 238);;
+    color: #FFF;
+}
+
+#one2 {
+    background-image: url(img/ronaldo.jpeg);
+    background-size: 350px 310px;
+    float: left;
+    width: 350px;
+    height: 310px;
+    border: none;
+    margin-top: 35px;
+}
+#one2 h2 {
+    text-shadow: 4px 3px 1px rgba(10, 10, 10, 0.822);
+    color: rgba(253, 253, 253, 0.897);
+    font-weight:bolder;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-top: 150px;
+   margin-left: 20px;
+}
+
+#two2 {
+    float: right;
+    width: 350px;
+    height: 310px;
+    border: none;
+    margin-top: 35px;
+}
+
+
+#noticias {
+    background-image: url(img/mascote2.jpg);
+    background-size: 360px 1000px;
+    width: 360px;
+    height: 1000px;
+    border: none;
+    margin-left: 1138px;
+}
+
+footer {
+    width: 1900px;
+    height: 250px;
+    border: none;
+    margin-top: 25px;
+    background-image: url(img/estrelado.jpg);
+}
+
+
+#rodape {
+    text-shadow: 4px 3px 1px rgba(10, 10, 10, 0.822);
+    color: rgba(253, 253, 253, 0.897);
+    font-weight:bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 820px;
+    margin-top: 50px;
+}
+
+.patrocinadores1 {
+    margin-left: 750px;
+    margin-top: 50px;
+}
+
+.patrocinadores2 {
+    margin-left: 30px;
+}
+
+
